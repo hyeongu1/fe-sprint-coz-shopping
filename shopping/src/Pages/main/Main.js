@@ -12,4 +12,4 @@ function Main() {
 
 
 
-export default Footer;
+export default Main;
