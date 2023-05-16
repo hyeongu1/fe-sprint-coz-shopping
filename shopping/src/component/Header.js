@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from './로고.png';
 import logotext from './쇼핑몰이름.png';
@@ -6,13 +7,15 @@ import hamburger from './햄버거버튼.png';
 
 
 
-function Header()  {
+function Header(props)  {
       return (
         <header>
+         <Link to = "/">
           <div className='logo'>
           <img src={logo}></img>
           <img src={logotext}></img>
           </div>
+          </Link>
           <img src={hamburger} className='hamburger'></img>
           <div className="content">
     <ul>
