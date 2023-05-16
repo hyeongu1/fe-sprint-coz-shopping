@@ -15,5 +15,4 @@ header {
     position: absolute; top: 50px; right: 70px;
 }
 
-ul{display: none;
-}
+li {list-style: none;}
